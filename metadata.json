@@ -1,0 +1,6 @@
+{
+  "name": "Martinni Móveis | Sofás e Camas Cuiabá",
+  "description": "Sofás sob medida, camas de alta qualidade e móveis de alto padrão para o seu conforto em Cuiabá - MT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
