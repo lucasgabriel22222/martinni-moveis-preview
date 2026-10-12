@@ -1,3 +1,17 @@
+import heroLuxurySofaImage from '../assets/images/hero_luxury_sofa_living_room_1791831905577.jpg';
+import sofaRetractilImage from '../assets/images/product_sofa_retractil_luxo_1791831920843.jpg';
+import sofaSobMedidaImage from '../assets/images/product_sofa_sob_medida_organic_1791831931451.jpg';
+import camaBoxImage from '../assets/images/product_cama_box_estofada_1791831941046.jpg';
+import poltronaImage from '../assets/images/product_poltrona_decorativa_1791831950083.jpg';
+
+export const siteImages = {
+  hero: heroLuxurySofaImage,
+  sofaRetractil: sofaRetractilImage,
+  sofaSobMedida: sofaSobMedidaImage,
+  camaBox: camaBoxImage,
+  poltrona: poltronaImage,
+};
+
 export interface Product {
   id: string;
   name: string;
@@ -97,7 +111,7 @@ export const siteData = {
       features: ["Molas ensacadas individuais", "Linho de alta gramatura", "Abertura suave até 1,80m", "Estrutura em eucalipto tratado"],
       dimensions: "Opções de 2,30m a 3,60m de largura",
       fabricOptions: "Linho cru, cinza grafite, terracota e suede premium",
-      image: "/src/assets/images/product_sofa_retractil_luxo_1791831920843.jpg",
+      image: sofaRetractilImage,
     },
     {
       id: "sofa-bellini-organico",
@@ -109,7 +123,7 @@ export const siteData = {
       features: ["Curvatura planejada para seu ambiente", "Tecido boucle importado", "Espuma D33 hiper soft", "Módulos conectáveis e reconfiguráveis"],
       dimensions: "Fabricado sob medida para o seu living",
       fabricOptions: "Boucle off-white, linho rústico e veludo italiano",
-      image: "/src/assets/images/product_sofa_sob_medida_organic_1791831931451.jpg",
+      image: sofaSobMedidaImage,
     },
     {
       id: "cama-milao-estofada",
@@ -121,7 +135,7 @@ export const siteData = {
       features: ["Cabeceira canelada em veludo touch", "Base box em madeira maciça reflorestada", "Estrutura anti-ruído reforçada", "Disponível em Queen e King"],
       dimensions: "Padrão Casal (138x188), Queen (158x198) e King (193x203)",
       fabricOptions: "Camurça warm bronze, linho bege e cinza chumbo",
-      image: "/src/assets/images/product_cama_box_estofada_1791831941046.jpg",
+      image: camaBoxImage,
     },
     {
       id: "poltrona-florenca-couro",
@@ -133,7 +147,7 @@ export const siteData = {
       features: ["Assento e encosto anatômicos", "Couro legítimo natural", "Madeira nobre com verniz acetinado", "Design atemporal de alta durabilidade"],
       dimensions: "82cm largura x 88cm profundidade x 85cm altura",
       fabricOptions: "Couro legítimo caramelo, preto ebony e nozes",
-      image: "/src/assets/images/product_poltrona_decorativa_1791831950083.jpg",
+      image: poltronaImage,
     },
     {
       id: "sofa-verona-living",
@@ -145,7 +159,7 @@ export const siteData = {
       features: ["Base suspensa em metal carbono", "Almofadas com toque de plumas", "Profundidade generosa de 1,05m", "Acabamento em costura pespontada dupla"],
       dimensions: "Comprimento personalizável de 2,00m a 4,20m",
       fabricOptions: "Linho puro, microfibra tecnológica hidro-repelente",
-      image: "/src/assets/images/hero_luxury_sofa_living_room_1791831905577.jpg",
+      image: heroLuxurySofaImage,
     },
     {
       id: "colchao-imperial-pocket",
@@ -157,7 +171,7 @@ export const siteData = {
       features: ["Molas ensacadas independentes", "Látex natural com alívio de pressão", "Malha fria respirável anti-ácaro", "Suporte de até 150kg por pessoa"],
       dimensions: "Solteirão, Casal, Queen e King Size",
       fabricOptions: "Malha belga com bordado matelassê em relevo",
-      image: "/src/assets/images/product_cama_box_estofada_1791831941046.jpg",
+      image: camaBoxImage,
     },
   ],
 

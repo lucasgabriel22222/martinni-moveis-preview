@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { MessageCircle, ChevronDown, Sparkles, MapPin, Star, ShieldCheck } from 'lucide-react';
-import { siteData } from '../data/siteData';
+import { MessageCircle, ChevronDown, MapPin, Star, ShieldCheck } from 'lucide-react';
+import { siteData, siteImages } from '../data/siteData';
 
 export const Hero: React.FC = () => {
   const [offsetY, setOffsetY] = useState(0);
@@ -36,7 +36,7 @@ export const Hero: React.FC = () => {
         }}
       >
         <img
-          src="/src/assets/images/hero_luxury_sofa_living_room_1791831905577.jpg"
+          src={siteImages.hero}
           alt="Sala de estar contemporânea com sofá sob medida de alto padrão Martinni Móveis em Cuiabá"
           className="w-full h-full object-cover object-center scale-105"
           referrerPolicy="no-referrer"
